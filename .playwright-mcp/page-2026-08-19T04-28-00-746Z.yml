@@ -1,0 +1,760 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#kakaoBody"
+    - link "메뉴 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#kakaoLnb"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - heading [level=1] [ref=e8]:
+            - link "티스토리" [ref=e9] [cursor=pointer]:
+              - /url: /?category=travel
+          - navigation [ref=e11]:
+            - heading "서비스 주요 메뉴" [level=2]
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "홈" [ref=e14] [cursor=pointer]:
+                  - /url: /?category=travel
+              - listitem [ref=e15]:
+                - link "피드" [ref=e16] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e17]:
+                - link "스킨" [ref=e18] [cursor=pointer]:
+                  - /url: /skin
+              - listitem [ref=e19]:
+                - link "포럼" [ref=e20] [cursor=pointer]:
+                  - /url: /community/forum
+          - generic [ref=e22]:
+            - heading "검색" [level=2]
+            - search [ref=e23]:
+              - group "티스토리 검색" [ref=e24]:
+                - generic [ref=e25]:
+                  - textbox "검색" [ref=e27]:
+                    - /placeholder: 검색어 입력
+                  - button "검색" [ref=e28] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - heading "공지사항" [level=2]
+            - link "불법촬영물 유통 방지 조치 대상 확대 안내" [ref=e36] [cursor=pointer]:
+              - /url: https://notice.tistory.com/2702
+          - generic [ref=e37]:
+            - heading "로그인 정보" [level=2]
+            - button "시작하기" [ref=e38] [cursor=pointer]
+    - main [ref=e39]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e46]:
+              - generic [ref=e48]:
+                - strong: 오늘의 티스토리
+                - heading "오늘의 티스토리" [level=2]
+                - link "[경기 시흥] 거북섬 웨이브엠 호텔 웨스트 후기｜펫룸·수영장·웨이브파크 숙소 추천" [ref=e49] [cursor=pointer]:
+                  - /url: https://hiseah.tistory.com/350
+                - link "블로그 이미지 안녕하세아" [ref=e55] [cursor=pointer]:
+                  - /url: https://hiseah.tistory.com
+                  - img "블로그 이미지" [ref=e57]
+                  - generic [ref=e58]: 안녕하세아
+              - generic [ref=e60]:
+                - strong: 오늘의 티스토리
+                - heading "오늘의 티스토리" [level=2]
+                - link "갤럭시버즈4 프로 후기, 버즈3 프로에서 얼마나 달라졌을까?" [ref=e61] [cursor=pointer]:
+                  - /url: https://dailylifekorea.tistory.com/entry/%EA%B0%A4%EB%9F%AD%EC%8B%9C%EB%B2%84%EC%A6%884-%ED%94%84%EB%A1%9C-%ED%9B%84%EA%B8%B0-%EB%B2%84%EC%A6%883-%ED%94%84%EB%A1%9C%EC%97%90%EC%84%9C-%EC%96%BC%EB%A7%88%EB%82%98-%EB%8B%AC%EB%9D%BC%EC%A1%8C%EC%9D%84%EA%B9%8C
+                - link "블로그 이미지 자유" [ref=e67] [cursor=pointer]:
+                  - /url: https://dailylifekorea.tistory.com
+                  - img "블로그 이미지" [ref=e69]
+                  - generic [ref=e70]: 자유
+              - generic [ref=e72]:
+                - strong: 오늘의 티스토리
+                - heading "오늘의 티스토리" [level=2]
+                - link "[두물머리 연핫도그] 서울 근교 드라이브 산책하기 좋은 코스" [ref=e73] [cursor=pointer]:
+                  - /url: https://wifeview.tistory.com/entry/%EB%91%90%EB%AC%BC%EB%A8%B8%EB%A6%AC-%EC%97%B0%ED%95%AB%EB%8F%84%EA%B7%B8-%EC%84%9C%EC%9A%B8-%EA%B7%BC%EA%B5%90-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%82%B0%EC%B1%85%ED%95%98%EA%B8%B0-%EC%A2%8B%EC%9D%80-%EC%BD%94%EC%8A%A4
+                - link "블로그 이미지 전지적 와이프 시점" [ref=e79] [cursor=pointer]:
+                  - /url: https://wifeview.tistory.com
+                  - img "블로그 이미지" [ref=e81]
+                  - generic [ref=e82]: 전지적 와이프 시점
+              - generic [ref=e84]:
+                - strong: 오늘의 티스토리
+                - heading "오늘의 티스토리" [level=2]
+                - link "빨래는 많은데 널 자리가 부족하다면? 접이식 빨래건조대 추천 👗" [ref=e85] [cursor=pointer]:
+                  - /url: https://august94.tistory.com/243
+                - link "블로그 이미지 모든 정보를 드립니다." [ref=e91] [cursor=pointer]:
+                  - /url: https://august94.tistory.com
+                  - img "블로그 이미지" [ref=e93]
+                  - generic [ref=e94]: 모든 정보를 드립니다.
+            - generic [ref=e96]:
+              - emphasis [ref=e97]:
+                - generic: "현재페이지:"
+                - text: "1"
+              - generic [ref=e98] [cursor=pointer]: "2"
+              - generic [ref=e99] [cursor=pointer]: "3"
+              - generic [ref=e100] [cursor=pointer]: "4"
+              - generic [ref=e101] [cursor=pointer]: "5"
+          - generic [ref=e102]:
+            - heading "인기글 베스트" [level=2]
+            - generic [ref=e104]:
+              - emphasis [ref=e105]: "1"
+              - link "한끼의 품격🤩" [ref=e106] [cursor=pointer]:
+                - /url: https://sma3431.tistory.com
+              - link [ref=e107] [cursor=pointer]:
+                - /url: https://sma3431.tistory.com/260
+                - strong [ref=e109]: 리뷰가 사실인 기사식당
+                - img "컨텐츠 이미지" [ref=e111]
+            - generic [ref=e113]:
+              - emphasis [ref=e114]: "2"
+              - link "마음 챙김" [ref=e115] [cursor=pointer]:
+                - /url: https://picassoforever.tistory.com
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://picassoforever.tistory.com/entry/%EA%B5%AC%EC%B6%A9%EC%A0%9C-%EB%A8%B9%EC%96%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%A6%9D%EC%83%81
+                - strong [ref=e118]: 구충제 먹어야 하는 증상
+                - img "컨텐츠 이미지" [ref=e120]
+            - generic [ref=e122]:
+              - emphasis [ref=e123]: "3"
+              - link "부산 토박이 아저씨의 맛집 에세이" [ref=e124] [cursor=pointer]:
+                - /url: https://taekwon-v1.tistory.com
+              - link [ref=e125] [cursor=pointer]:
+                - /url: https://taekwon-v1.tistory.com/453
+                - strong [ref=e127]: 74,000원에 3명이 6가지 음식을 배부르게 먹었습니다.
+                - img "컨텐츠 이미지" [ref=e129]
+            - generic [ref=e131]:
+              - emphasis [ref=e132]: "4"
+              - link "호기심마왕 제로제이" [ref=e133] [cursor=pointer]:
+                - /url: https://jerojay.tistory.com
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://jerojay.tistory.com/entry/%EB%A7%88%EA%B7%B8%EB%84%A4%EC%8A%98-%EB%B6%80%EC%A1%B1%ED%95%98%EB%A9%B4-%EB%82%98%ED%83%80%EB%82%98%EB%8A%94-%EC%A6%9D%EC%83%81-7%EA%B0%80%EC%A7%80-%EB%AA%B8%EC%9D%B4-%EB%B3%B4%EB%82%B4%EB%8A%94-%EC%8B%A0%ED%98%B8-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+                - strong [ref=e136]: 마그네슘 부족하면 나타나는 증상 7가지, 몸이 보내는 신호 알아보기
+                - img "컨텐츠 이미지" [ref=e138]
+            - generic [ref=e140]:
+              - emphasis [ref=e141]: "5"
+              - link "미짱의 나 여기에 ... 미짱의 동경 생활" [ref=e142] [cursor=pointer]:
+                - /url: https://michan1027.tistory.com
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://michan1027.tistory.com/3009
+                - strong [ref=e145]: 필리핀의 구워 먹는 바나나
+                - img "컨텐츠 이미지" [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - tablist [ref=e150]:
+                - tab "여행 · 맛집" [selected] [ref=e151] [cursor=pointer]:
+                  - generic [ref=e153]:
+                    - text: 여행
+                    - generic [ref=e154]: ·
+                    - text: 맛집
+                - tab "리빙 · 스타일" [ref=e155] [cursor=pointer]:
+                  - generic [ref=e157]:
+                    - text: 리빙
+                    - generic [ref=e158]: ·
+                    - text: 스타일
+                - tab "가족 · 연애" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e161]:
+                    - text: 가족
+                    - generic [ref=e162]: ·
+                    - text: 연애
+                - tab "직장 · 자기계발" [ref=e163] [cursor=pointer]:
+                  - generic [ref=e165]:
+                    - text: 직장
+                    - generic [ref=e166]: ·
+                    - text: 자기계발
+                - tab "시사 · 지식" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e169]:
+                    - text: 시사
+                    - generic [ref=e170]: ·
+                    - text: 지식
+                - tab "도서 · 창작" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e173]:
+                    - text: 도서
+                    - generic [ref=e174]: ·
+                    - text: 창작
+                - tab "엔터테인먼트" [ref=e175] [cursor=pointer]
+                - tab "취미 · 건강" [ref=e178] [cursor=pointer]:
+                  - generic [ref=e180]:
+                    - text: 취미
+                    - generic [ref=e181]: ·
+                    - text: 건강
+              - button "다음 카테고리" [ref=e182] [cursor=pointer]
+            - heading "여행·맛집" [level=2]
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - link "블로그 이미지 하늘하늘의 공간사랑" [ref=e187] [cursor=pointer]:
+                  - /url: https://csmsjy.tistory.com
+                  - img "블로그 이미지" [ref=e189]
+                  - generic [ref=e190]: 하늘하늘의 공간사랑
+                - link "국립공원 계룡산 동학사 입구 맛집에서 점심식사 말복이 지나면 더위가 끝나려나???????극심한 가뭄 속에 남부지방에 물폭탄이 찾아와 피해가 많았던 연휴기간..더 이상 피해가 발생치 않기를 기원하며 오늘 포스팅을 엮어갑니다. 지난 말복에 지인들과 함께 식사를 했습니다.4명이 돌아가면서 한 번씩 계산하며 식사를 했는데 이번에는 내 차례가 되었는데 마침 말복날 모두 시간이 문제가 없다고 해서2일 전에 예약하고 찾아간 국립공원 계룡산 동학사 입구 맛집이야기입니다. 공주 국립공원 계룡산 동학사 입구 맛집 -- 퓨전 한정식 풍경 사진을 찍고 싶은 생각이 없었는데 그냥 음식 모양만 담았습니다. 계룡시에서 밀목재 넘어 동학사 쪽으로 넘어가면 고개 아래에 있는 공주 맛집풍경을 만납니다.풍경 퓨전한정식 메뉴는 풍경정식과 정성상차림 딱 두 가지만 있습니다.. 좋아요 25 댓글 27 1일 전 게시글 이미지" [ref=e191] [cursor=pointer]:
+                  - /url: https://csmsjy.tistory.com/7094483
+                  - generic [ref=e192]:
+                    - strong [ref=e193]: 국립공원 계룡산 동학사 입구 맛집에서 점심식사
+                    - paragraph [ref=e195]: 말복이 지나면 더위가 끝나려나???????극심한 가뭄 속에 남부지방에 물폭탄이 찾아와 피해가 많았던 연휴기간..더 이상 피해가 발생치 않기를 기원하며 오늘 포스팅을 엮어갑니다. 지난 말복에 지인들과 함께 식사를 했습니다.4명이 돌아가면서 한 번씩 계산하며 식사를 했는데 이번에는 내 차례가 되었는데 마침 말복날 모두 시간이 문제가 없다고 해서2일 전에 예약하고 찾아간 국립공원 계룡산 동학사 입구 맛집이야기입니다. 공주 국립공원 계룡산 동학사 입구 맛집 -- 퓨전 한정식 풍경 사진을 찍고 싶은 생각이 없었는데 그냥 음식 모양만 담았습니다. 계룡시에서 밀목재 넘어 동학사 쪽으로 넘어가면 고개 아래에 있는 공주 맛집풍경을 만납니다.풍경 퓨전한정식 메뉴는 풍경정식과 정성상차림 딱 두 가지만 있습니다..
+                    - generic [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic [ref=e198]: 좋아요
+                        - generic [ref=e199]: "25"
+                      - generic [ref=e200]:
+                        - generic [ref=e201]: 댓글
+                        - generic [ref=e202]: "27"
+                      - generic [ref=e203]: 1일 전
+                  - img "게시글 이미지" [ref=e206]
+              - generic [ref=e207]:
+                - link "블로그 이미지 tour of wind" [ref=e209] [cursor=pointer]:
+                  - /url: https://sunny38.tistory.com
+                  - img "블로그 이미지" [ref=e211]
+                  - generic [ref=e212]: tour of wind
+                - link "나무의 아름다움에 반하다-화순 만연사 배롱나무꽃 나무... 가만히 소리내어 말해보면참 아름다운 말입니다. 절집 바위 위에 앉아나무를 바라봅니다. 아름다운 말에 어울리는 아름다운 나무... 오랜 세월을 살아온 나무의 줄기, 그저 바라만 보아도 그 위대함이 느껴집니다. 나무의 아름다움에 반하고 옵니다. 화순 만연사 배롱나무꽃입니다. (2026년 8월 8일) 화순 만연사.. 주차장에서 오르면 제일 처음 만나지는 풍경은 능소화입니다. 능소화가 지고 있긴 하지만절집과 어우러져 충분히 아름다운 모습입니다 그리고 만나지는 나무 한 그루배롱나무꽃입니다 만개하였다고 소식을 들었는데올해 꽃이 상태가 그리 좋지는 않는 듯합니다 꽃이 만개는 아니어도이 나무 아래 서.. 좋아요 134 댓글 61 5일 전 게시글 이미지" [ref=e213] [cursor=pointer]:
+                  - /url: https://sunny38.tistory.com/11778734
+                  - generic [ref=e214]:
+                    - strong [ref=e215]: 나무의 아름다움에 반하다-화순 만연사 배롱나무꽃
+                    - paragraph [ref=e217]: 나무... 가만히 소리내어 말해보면참 아름다운 말입니다. 절집 바위 위에 앉아나무를 바라봅니다. 아름다운 말에 어울리는 아름다운 나무... 오랜 세월을 살아온 나무의 줄기, 그저 바라만 보아도 그 위대함이 느껴집니다. 나무의 아름다움에 반하고 옵니다. 화순 만연사 배롱나무꽃입니다. (2026년 8월 8일) 화순 만연사.. 주차장에서 오르면 제일 처음 만나지는 풍경은 능소화입니다. 능소화가 지고 있긴 하지만절집과 어우러져 충분히 아름다운 모습입니다 그리고 만나지는 나무 한 그루배롱나무꽃입니다 만개하였다고 소식을 들었는데올해 꽃이 상태가 그리 좋지는 않는 듯합니다 꽃이 만개는 아니어도이 나무 아래 서..
+                    - generic [ref=e218]:
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: 좋아요
+                        - generic [ref=e221]: "134"
+                      - generic [ref=e222]:
+                        - generic [ref=e223]: 댓글
+                        - generic [ref=e224]: "61"
+                      - generic [ref=e225]: 5일 전
+                  - img "게시글 이미지" [ref=e228]
+              - generic [ref=e229]:
+                - link "블로그 이미지 산생(山生)" [ref=e231] [cursor=pointer]:
+                  - /url: https://akekanfl.tistory.com
+                  - img "블로그 이미지" [ref=e233]
+                  - generic [ref=e234]: 산생(山生)
+                - link "함양 천년의정원, 하얀 목수국길 함양 천년의정원, 하얀 목수국길상림꽃단지 지나 천년의정원 오르는 길언덕 위 소나무 숲하늘 향해 우뚝 솟아 푸른 기개 뽐내고,그 아래 초록 언덕엔 하얀 구름 조각들송이송이 수국으로 피어났네.풍성한 꽃길 너머바다처럼 펼쳐진 상림숲, 그 너머 오봉산과 지리산 능선장쾌한 수묵화로 그려지니시름 잊고 넋을 잃네.시간마저 걸음 멈춘 곳 오랜만에 둘이서 호젓한 꽃길 걸으며우렁찬 매미 소리, 산새들 노래에 바쁜 세상 시름 잠시 접어두고마음의 평온 찾아가네.지독한 폭염과 가뭄에 타들어 간 꽃송이들 애틋한 사연 품은 듯하여더욱 아름다워라.자연과 인공이 빚어낸 조화 그 아늑한 품에 기대어 오늘의 마실, 곱게 접어두노라.2026. 8. 12.함양 천년의정원에서...이곳은함양의 대표 관광지인 상림공원과 달리아는 사람만 아는상림공.. 좋아요 129 댓글 11 5일 전 게시글 이미지" [ref=e235] [cursor=pointer]:
+                  - /url: https://akekanfl.tistory.com/8708345
+                  - generic [ref=e236]:
+                    - strong [ref=e237]: 함양 천년의정원, 하얀 목수국길
+                    - paragraph [ref=e239]: 함양 천년의정원, 하얀 목수국길상림꽃단지 지나 천년의정원 오르는 길언덕 위 소나무 숲하늘 향해 우뚝 솟아 푸른 기개 뽐내고,그 아래 초록 언덕엔 하얀 구름 조각들송이송이 수국으로 피어났네.풍성한 꽃길 너머바다처럼 펼쳐진 상림숲, 그 너머 오봉산과 지리산 능선장쾌한 수묵화로 그려지니시름 잊고 넋을 잃네.시간마저 걸음 멈춘 곳 오랜만에 둘이서 호젓한 꽃길 걸으며우렁찬 매미 소리, 산새들 노래에 바쁜 세상 시름 잠시 접어두고마음의 평온 찾아가네.지독한 폭염과 가뭄에 타들어 간 꽃송이들 애틋한 사연 품은 듯하여더욱 아름다워라.자연과 인공이 빚어낸 조화 그 아늑한 품에 기대어 오늘의 마실, 곱게 접어두노라.2026. 8. 12.함양 천년의정원에서...이곳은함양의 대표 관광지인 상림공원과 달리아는 사람만 아는상림공..
+                    - generic [ref=e240]:
+                      - generic [ref=e241]:
+                        - generic [ref=e242]: 좋아요
+                        - generic [ref=e243]: "129"
+                      - generic [ref=e244]:
+                        - generic [ref=e245]: 댓글
+                        - generic [ref=e246]: "11"
+                      - generic [ref=e247]: 5일 전
+                  - img "게시글 이미지" [ref=e250]
+              - generic [ref=e251]:
+                - link "블로그 이미지 룰루제이 호주 라이프" [ref=e253] [cursor=pointer]:
+                  - /url: https://luluj-australia.tistory.com
+                  - img "블로그 이미지" [ref=e255]
+                  - generic [ref=e256]: 룰루제이 호주 라이프
+                - 'link "“운동 후 꿀맛! 탭 커피라 더 특별한 고소달콤 오트라떼!” 바 비스코티(Bar Biscotti) 시드니 커피 맛집 Bar Biscotti시드니 브런치 맛집으로 인기 많은 노스 스트라스필드의 바 비스코티(Bar Biscotti)에 월요일 운동을 마치고 또 다녀왔어요. 이날도 줄을 서서 인기 메뉴인 아이스 오트라테와 달고나 콜드브루를 포장해 차 안에서 바로 마셨는데, 고소하고 달콤한 커피가 운동 후라 그런지 더욱 꿀맛처럼 느껴졌던 바 비스코티 커피 후기 적어볼게요.\">바 비스코티 Bar Biscotti주소: 24 George St, North Strathfield NSW 2137영업시간: 월요일-토요일 오전 6:00~오후 3:30, 일요일 오전 7:00~오후 3:30예약하기: http://www.barbiscotti.com.au/ 🌿 바 비스코티(Bar Biscotti)시드니에서 감각적인 커피와 브런치로 인기가 많은 .. 좋아요 88 댓글 58 2일 전 게시글 이미지" [ref=e257] [cursor=pointer]':
+                  - /url: https://luluj-australia.tistory.com/491
+                  - generic [ref=e258]:
+                    - strong [ref=e259]: “운동 후 꿀맛! 탭 커피라 더 특별한 고소달콤 오트라떼!” 바 비스코티(Bar Biscotti) 시드니 커피 맛집
+                    - paragraph [ref=e261]: "Bar Biscotti시드니 브런치 맛집으로 인기 많은 노스 스트라스필드의 바 비스코티(Bar Biscotti)에 월요일 운동을 마치고 또 다녀왔어요. 이날도 줄을 서서 인기 메뉴인 아이스 오트라테와 달고나 콜드브루를 포장해 차 안에서 바로 마셨는데, 고소하고 달콤한 커피가 운동 후라 그런지 더욱 꿀맛처럼 느껴졌던 바 비스코티 커피 후기 적어볼게요.\">바 비스코티 Bar Biscotti주소: 24 George St, North Strathfield NSW 2137영업시간: 월요일-토요일 오전 6:00~오후 3:30, 일요일 오전 7:00~오후 3:30예약하기: http://www.barbiscotti.com.au/ 🌿 바 비스코티(Bar Biscotti)시드니에서 감각적인 커피와 브런치로 인기가 많은 .."
+                    - generic [ref=e262]:
+                      - generic [ref=e263]:
+                        - generic [ref=e264]: 좋아요
+                        - generic [ref=e265]: "88"
+                      - generic [ref=e266]:
+                        - generic [ref=e267]: 댓글
+                        - generic [ref=e268]: "58"
+                      - generic [ref=e269]: 2일 전
+                  - img "게시글 이미지" [ref=e272]
+              - generic [ref=e273]:
+                - link "블로그 이미지 은모래 강가에서" [ref=e275] [cursor=pointer]:
+                  - /url: https://bome415.tistory.com
+                  - img "블로그 이미지" [ref=e277]
+                  - generic [ref=e278]: 은모래 강가에서
+                - link "기장끝집 기장끝집~~유명하다고 언제부터 노래를 부르던 남편 저는 해물을 별 로 즐기지도 않고 내키지 않아 버티다가오늘 병원에가서 몇가지 검사를 받은 후칠암 해안길 드라이브를~~^^아직 비가 묻어 있지만점점 개어오는 바다의 하늘은 그런대로멋 있습니다오는 길에 점심 하자고 제가 제안을 하여기장 끝집을 찾았습니다어제 저녁부터 금식을 하고 오전 검사를 마친 후 사과ㆍ바나나 ㆍ빵과 커피로 조금 요기한 후~~생각 보다 깔끔하게 단장된 분위기가 좋았습니다원조 식당도 아직 그대로 남아있는 것 같은데 이 곳은 새롭게 단장 오픈한 두번째의 기장 끝집인 것 같아요자리에 앉으니예쁜 보자기 안 바구니에 숨겨진 수저 세트와 컵ㆍ 그릇드디어 멋진 한 상 차림이 정겨운 소쿠리안에 정갈하게 담겨져 오네요미역국도 나오고요아무리 맛있게 .. 좋아요 17 댓글 16 1일 전 게시글 이미지" [ref=e279] [cursor=pointer]:
+                  - /url: https://bome415.tistory.com/11803228
+                  - generic [ref=e280]:
+                    - strong [ref=e281]: 기장끝집
+                    - paragraph [ref=e283]: 기장끝집~~유명하다고 언제부터 노래를 부르던 남편 저는 해물을 별 로 즐기지도 않고 내키지 않아 버티다가오늘 병원에가서 몇가지 검사를 받은 후칠암 해안길 드라이브를~~^^아직 비가 묻어 있지만점점 개어오는 바다의 하늘은 그런대로멋 있습니다오는 길에 점심 하자고 제가 제안을 하여기장 끝집을 찾았습니다어제 저녁부터 금식을 하고 오전 검사를 마친 후 사과ㆍ바나나 ㆍ빵과 커피로 조금 요기한 후~~생각 보다 깔끔하게 단장된 분위기가 좋았습니다원조 식당도 아직 그대로 남아있는 것 같은데 이 곳은 새롭게 단장 오픈한 두번째의 기장 끝집인 것 같아요자리에 앉으니예쁜 보자기 안 바구니에 숨겨진 수저 세트와 컵ㆍ 그릇드디어 멋진 한 상 차림이 정겨운 소쿠리안에 정갈하게 담겨져 오네요미역국도 나오고요아무리 맛있게 ..
+                    - generic [ref=e284]:
+                      - generic [ref=e285]:
+                        - generic [ref=e286]: 좋아요
+                        - generic [ref=e287]: "17"
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: 댓글
+                        - generic [ref=e290]: "16"
+                      - generic [ref=e291]: 1일 전
+                  - img "게시글 이미지" [ref=e294]
+              - generic [ref=e295]:
+                - link "블로그 이미지 경송이의 식사일기" [ref=e297] [cursor=pointer]:
+                  - /url: https://gyung-song.tistory.com
+                  - img "블로그 이미지" [ref=e299]
+                  - generic [ref=e300]: 경송이의 식사일기
+                - link "김포 드라이브하고 들리기 좋은 대형 바베큐 레스토랑, 텍사스바베큐 맛집 블루스모크 블루스모크경기 김포시 하성면 하성로 294블루스모크 김포본점경기 김포시 하성면 하사리 237-2 영업시간 11:00 ~ 21:00마지막 주문 20:10 까지 가게 바로 앞, 옆으로널찍한 전용 주차장 있다. 김포 애기봉, 대명항 쪽으로드라이브하면서 가기 좋은블루스모크 정말 정말 큰 창고형 건물 전부가식당인 만큼 주차장도 널찍하고,내부도 탁 트여있고,인테리어 분위기도 좋고~ 입구 쪽에 게임기도 있어서신나게 달려갔더니 장식용 ㅠㅠ 사진만 봐도 군침이 삭 도는 비주얼 브리스킷, 스페어립, 풀드포크, 치킨이골고루 4종 나오는 하프플래터 60,000BBQ 스모크피자 29,000 주문! 셀프바엔 소스, 피클, 양파,장갑, 물티슈, 앞치마 등잘 준비되어 있었고테이블에 하나씩 비치된메뉴 안내와 맛있게 .. 좋아요 9 댓글 7 18시간 전 게시글 이미지" [ref=e301] [cursor=pointer]:
+                  - /url: https://gyung-song.tistory.com/888
+                  - generic [ref=e302]:
+                    - strong [ref=e303]: 김포 드라이브하고 들리기 좋은 대형 바베큐 레스토랑, 텍사스바베큐 맛집 블루스모크
+                    - paragraph [ref=e305]: 블루스모크경기 김포시 하성면 하성로 294블루스모크 김포본점경기 김포시 하성면 하사리 237-2 영업시간 11:00 ~ 21:00마지막 주문 20:10 까지 가게 바로 앞, 옆으로널찍한 전용 주차장 있다. 김포 애기봉, 대명항 쪽으로드라이브하면서 가기 좋은블루스모크 정말 정말 큰 창고형 건물 전부가식당인 만큼 주차장도 널찍하고,내부도 탁 트여있고,인테리어 분위기도 좋고~ 입구 쪽에 게임기도 있어서신나게 달려갔더니 장식용 ㅠㅠ 사진만 봐도 군침이 삭 도는 비주얼 브리스킷, 스페어립, 풀드포크, 치킨이골고루 4종 나오는 하프플래터 60,000BBQ 스모크피자 29,000 주문! 셀프바엔 소스, 피클, 양파,장갑, 물티슈, 앞치마 등잘 준비되어 있었고테이블에 하나씩 비치된메뉴 안내와 맛있게 ..
+                    - generic [ref=e306]:
+                      - generic [ref=e307]:
+                        - generic [ref=e308]: 좋아요
+                        - generic [ref=e309]: "9"
+                      - generic [ref=e310]:
+                        - generic [ref=e311]: 댓글
+                        - generic [ref=e312]: "7"
+                      - generic [ref=e313]: 18시간 전
+                  - img "게시글 이미지" [ref=e316]
+              - generic [ref=e317]:
+                - link "블로그 이미지 은벼리파파의 얼렁뚱땅 육아일기" [ref=e319] [cursor=pointer]:
+                  - /url: https://ribi.tistory.com
+                  - img "블로그 이미지" [ref=e321]
+                  - generic [ref=e322]: 은벼리파파의 얼렁뚱땅 육아일기
+                - link "\"5봉 만원의 행복!\" 시장 골목을 가득 채운 고소한 향의 정체, 평택 통복시장 줄 서서 사는 '김도둑 즉석구이김'~! \"이러니 밥도둑 소리 듣지!\" 시장 골목을 가득 채운 고소한 향의 정체, 평택 통복시장 줄 서서 사는 '김도둑 즉석구이김' 밤새 비가 내렸는지 습한 기운이 넘쳐 나는 일요일 아침입니다. 더위가 한풀 꺾여 좋긴 한데, 습습함이 반갑지만은 않네요.^^ 어제는 오랜만에 오후 느지막이 전통시장 나들이를 다녀왔습니다. 아내 회사에서 지역 소상공인 상생을 위해 챙겨주는 온누리상품권 지류와 이번에 삼성전자 감사 페스티벌에서 받은 디지털 온누리상품권을 들고 오랜만에 활기 넘치는 평택 통복시장을 찾았습니다. 통복시장 통복시장경기 평택시 통복동 16-1 시장은 24시간 연중무휴로 운영되고 있습니다. 해당 매장은 매주 화요일은 정기휴무이고, 당일 준비한 죽석김구이가 소진되면 영업마감됩니다.주차는 시장 주변의 공영주.. 좋아요 20 댓글 8 3일 전 게시글 이미지" [ref=e323] [cursor=pointer]:
+                  - /url: https://ribi.tistory.com/555554
+                  - generic [ref=e324]:
+                    - strong [ref=e325]: "\"5봉 만원의 행복!\" 시장 골목을 가득 채운 고소한 향의 정체, 평택 통복시장 줄 서서 사는 '김도둑 즉석구이김'~!"
+                    - paragraph [ref=e327]: "\"이러니 밥도둑 소리 듣지!\" 시장 골목을 가득 채운 고소한 향의 정체, 평택 통복시장 줄 서서 사는 '김도둑 즉석구이김' 밤새 비가 내렸는지 습한 기운이 넘쳐 나는 일요일 아침입니다. 더위가 한풀 꺾여 좋긴 한데, 습습함이 반갑지만은 않네요.^^ 어제는 오랜만에 오후 느지막이 전통시장 나들이를 다녀왔습니다. 아내 회사에서 지역 소상공인 상생을 위해 챙겨주는 온누리상품권 지류와 이번에 삼성전자 감사 페스티벌에서 받은 디지털 온누리상품권을 들고 오랜만에 활기 넘치는 평택 통복시장을 찾았습니다. 통복시장 통복시장경기 평택시 통복동 16-1 시장은 24시간 연중무휴로 운영되고 있습니다. 해당 매장은 매주 화요일은 정기휴무이고, 당일 준비한 죽석김구이가 소진되면 영업마감됩니다.주차는 시장 주변의 공영주.."
+                    - generic [ref=e328]:
+                      - generic [ref=e329]:
+                        - generic [ref=e330]: 좋아요
+                        - generic [ref=e331]: "20"
+                      - generic [ref=e332]:
+                        - generic [ref=e333]: 댓글
+                        - generic [ref=e334]: "8"
+                      - generic [ref=e335]: 3일 전
+                  - img "게시글 이미지" [ref=e338]
+            - generic [ref=e340]:
+              - generic [ref=e341]:
+                - generic: "현재 페이지 :"
+                - emphasis [ref=e342]: "1"
+                - generic [ref=e343]: / 7
+              - button "이전" [ref=e344] [cursor=pointer]
+              - button "다음" [ref=e346] [cursor=pointer]
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - heading "FOCUS" [level=2] [ref=e350]
+              - strong [ref=e351]: J의 주말 계획 🚴🏻‍♂️
+              - paragraph [ref=e352]: 주말 나들이 갈만한 곳을 알아보세요. 진정한 J라면 월요일부터 주말 계획을 세워야 하니까요.
+            - generic [ref=e353]:
+              - generic [ref=e354]:
+                - link "블로그 이미지 tour of wind" [ref=e356] [cursor=pointer]:
+                  - /url: https://sunny38.tistory.com
+                  - img "블로그 이미지" [ref=e358]
+                  - generic [ref=e359]: tour of wind
+                - link "이름없는 포구의 아침 하늘이 아름다운 새벽, 붉은 빛이 하늘을 물들여갑니다. 이름없는 포구의 아침입니다.(2026년 8월 8일) 하동 신월습지를 찾아 갔던 날, 근처 포구에서 아침을 맞이합니다 붉었던 하늘이 푸르름으로 변해가고 지도에서 포구 이름을 찾아봐도이름이 보이지 않는 곳이네요 긴 호흡으로 담아 보는 포구 풍경들 파란 하늘과 구름 몇 장 포구 전체 풍경 한 장 어찌보면 특별할 것 없는 포구이지만자주 찾게 될 것 같은 곳입니다. 좋아요 114 댓글 49 1일 전 게시글 이미지" [ref=e360] [cursor=pointer]:
+                  - /url: https://sunny38.tistory.com/11778736
+                  - generic [ref=e361]:
+                    - strong [ref=e362]: 이름없는 포구의 아침
+                    - paragraph [ref=e364]: 하늘이 아름다운 새벽, 붉은 빛이 하늘을 물들여갑니다. 이름없는 포구의 아침입니다.(2026년 8월 8일) 하동 신월습지를 찾아 갔던 날, 근처 포구에서 아침을 맞이합니다 붉었던 하늘이 푸르름으로 변해가고 지도에서 포구 이름을 찾아봐도이름이 보이지 않는 곳이네요 긴 호흡으로 담아 보는 포구 풍경들 파란 하늘과 구름 몇 장 포구 전체 풍경 한 장 어찌보면 특별할 것 없는 포구이지만자주 찾게 될 것 같은 곳입니다.
+                    - generic [ref=e365]:
+                      - generic [ref=e366]:
+                        - generic [ref=e367]: 좋아요
+                        - generic [ref=e368]: "114"
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: 댓글
+                        - generic [ref=e371]: "49"
+                      - generic [ref=e372]: 1일 전
+                  - img "게시글 이미지" [ref=e375]
+              - generic [ref=e376]:
+                - link "블로그 이미지 Photo & Movie 행복나눔터" [ref=e378] [cursor=pointer]:
+                  - /url: https://kangdante.tistory.com
+                  - img "블로그 이미지" [ref=e380]
+                  - generic [ref=e381]: Photo & Movie 행복나눔터
+                - link "‘가나다락-글놀이 말놀이’ 특별전시, 국립민속박물관 서울 종로구 세종로에 위치한 국립민속박물관은 전통사회에서 현재에 이르기까지 우리 민족 고유의 생활양식ㆍ풍속ㆍ민속유물 등 한국인의 삶의 모습과 문화를 상설전시와 기획전시로 운영하고 있다. 국립민속박물관 기획전시실2에서는 지난 2026. 5. 13(수)부터 오는 2026. 8. 30(일)까지 2026년 한글날(가갸날) 100주년을 맞아 국립한글박물관과 함께 ‘가나다락-글놀이 말놀이‘ 특별전시를 하고 있다. 조선문연습상도(朝鮮文練習上圖)는 초성과 중성으로 결합된 한글 총 91자를 익힐 수 있도록 설계된 놀이판이며, 놀이판 위에는 구체적인 놀이 방법이 적혀 있어 누구나 쉽게 따라할 수 있다. 놀이판 밖의 덧붙인 말에서 저자는 “이 놀이가 사회적으로 유행하게 되어 글을 읽지 못하는 사람들이 사라지기를 바란다”.. 좋아요 37 댓글 38 1일 전 게시글 이미지" [ref=e382] [cursor=pointer]:
+                  - /url: https://kangdante.tistory.com/3198
+                  - generic [ref=e383]:
+                    - strong [ref=e384]: ‘가나다락-글놀이 말놀이’ 특별전시, 국립민속박물관
+                    - paragraph [ref=e386]: 서울 종로구 세종로에 위치한 국립민속박물관은 전통사회에서 현재에 이르기까지 우리 민족 고유의 생활양식ㆍ풍속ㆍ민속유물 등 한국인의 삶의 모습과 문화를 상설전시와 기획전시로 운영하고 있다. 국립민속박물관 기획전시실2에서는 지난 2026. 5. 13(수)부터 오는 2026. 8. 30(일)까지 2026년 한글날(가갸날) 100주년을 맞아 국립한글박물관과 함께 ‘가나다락-글놀이 말놀이‘ 특별전시를 하고 있다. 조선문연습상도(朝鮮文練習上圖)는 초성과 중성으로 결합된 한글 총 91자를 익힐 수 있도록 설계된 놀이판이며, 놀이판 위에는 구체적인 놀이 방법이 적혀 있어 누구나 쉽게 따라할 수 있다. 놀이판 밖의 덧붙인 말에서 저자는 “이 놀이가 사회적으로 유행하게 되어 글을 읽지 못하는 사람들이 사라지기를 바란다”..
+                    - generic [ref=e387]:
+                      - generic [ref=e388]:
+                        - generic [ref=e389]: 좋아요
+                        - generic [ref=e390]: "37"
+                      - generic [ref=e391]:
+                        - generic [ref=e392]: 댓글
+                        - generic [ref=e393]: "38"
+                      - generic [ref=e394]: 1일 전
+                  - img "게시글 이미지" [ref=e397]
+              - generic [ref=e398]:
+                - link "블로그 이미지 석화의 여행이야기" [ref=e400] [cursor=pointer]:
+                  - /url: https://wlsska1.tistory.com
+                  - img "블로그 이미지" [ref=e402]
+                  - generic [ref=e403]: 석화의 여행이야기
+                - link "서천 판교 근대상가.. 근대상가 장미사진관은..점포와 주거가 병용된 일본식 상점 구조와변형된 전통 한옥양식을 가진 2층 목조 건물이다.넓은 창호 설계를 통해 상업시설로서의개방성과 기능성을 강조했으며특히 우진각 지붕의 독특한 2층 구조는판교장터의 역사성과 상징성을 높이는건축물로 평가받고 있다.Claude Ciari - Solenzara 좋아요 28 댓글 40 17시간 전 게시글 이미지" [ref=e404] [cursor=pointer]:
+                  - /url: https://wlsska1.tistory.com/7068940
+                  - generic [ref=e405]:
+                    - strong [ref=e406]: 서천 판교 근대상가..
+                    - paragraph [ref=e408]: 근대상가 장미사진관은..점포와 주거가 병용된 일본식 상점 구조와변형된 전통 한옥양식을 가진 2층 목조 건물이다.넓은 창호 설계를 통해 상업시설로서의개방성과 기능성을 강조했으며특히 우진각 지붕의 독특한 2층 구조는판교장터의 역사성과 상징성을 높이는건축물로 평가받고 있다.Claude Ciari - Solenzara
+                    - generic [ref=e409]:
+                      - generic [ref=e410]:
+                        - generic [ref=e411]: 좋아요
+                        - generic [ref=e412]: "28"
+                      - generic [ref=e413]:
+                        - generic [ref=e414]: 댓글
+                        - generic [ref=e415]: "40"
+                      - generic [ref=e416]: 17시간 전
+                  - img "게시글 이미지" [ref=e419]
+              - generic [ref=e420]:
+                - link "블로그 이미지 산행과여행 사진으로 말한다" [ref=e422] [cursor=pointer]:
+                  - /url: https://skdywjd25.tistory.com
+                  - img "블로그 이미지" [ref=e424]
+                  - generic [ref=e425]: 산행과여행 사진으로 말한다
+                - link "강원도 태백 ::2026 태백 해바라기축제(1부드론)【26년8월2일】 2026 태백 해바라기축제(1부드론) 병원 입원 해 있다보니 포스팅 늦어지고 있다여름휴가 2일째 8월2일-경북안동(④체화정,⑤병산서원 배롱나무),⑥예천(초간정),⑦강원도태백(해바라기축제)8월4일-⑨경남합천(황매산 목수국) 8월5일-전북정읍⑩(구절초지방정원 백일홍&버들마편초),⑪(서현사지 배롱나무),⑫(무성서원),⑬(김명관고택),⑭(동학혁명기념공원 배롱나무)일정이다 우선,강원도 여행길 먼저 포스팅 들어간다 태백 해바라기 축제장에 왔을때 오후5시 넘어가고 있었다 마감시간은 오후6시 여행자들 빠져 나가는 시간대라 여유롭게 걸어본다 2026 태백 해바라기 축제 기간:7.17(금) – 8.17(월) 시간:07:00 ~ 19:00 (※ 최종 입장 마감 18:00) 요금:성인.. 좋아요 21 댓글 16 4일 전 게시글 이미지" [ref=e426] [cursor=pointer]:
+                  - /url: https://skdywjd25.tistory.com/11573
+                  - generic [ref=e427]:
+                    - strong [ref=e428]: 강원도 태백 ::2026 태백 해바라기축제(1부드론)【26년8월2일】
+                    - paragraph [ref=e430]: 2026 태백 해바라기축제(1부드론) 병원 입원 해 있다보니 포스팅 늦어지고 있다여름휴가 2일째 8월2일-경북안동(④체화정,⑤병산서원 배롱나무),⑥예천(초간정),⑦강원도태백(해바라기축제)8월4일-⑨경남합천(황매산 목수국) 8월5일-전북정읍⑩(구절초지방정원 백일홍&버들마편초),⑪(서현사지 배롱나무),⑫(무성서원),⑬(김명관고택),⑭(동학혁명기념공원 배롱나무)일정이다 우선,강원도 여행길 먼저 포스팅 들어간다 태백 해바라기 축제장에 왔을때 오후5시 넘어가고 있었다 마감시간은 오후6시 여행자들 빠져 나가는 시간대라 여유롭게 걸어본다 2026 태백 해바라기 축제 기간:7.17(금) – 8.17(월) 시간:07:00 ~ 19:00 (※ 최종 입장 마감 18:00) 요금:성인..
+                    - generic [ref=e431]:
+                      - generic [ref=e432]:
+                        - generic [ref=e433]: 좋아요
+                        - generic [ref=e434]: "21"
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: 댓글
+                        - generic [ref=e437]: "16"
+                      - generic [ref=e438]: 4일 전
+                  - img "게시글 이미지" [ref=e441]
+              - generic [ref=e442]:
+                - link "블로그 이미지 하루의시간" [ref=e444] [cursor=pointer]:
+                  - /url: https://helloamy.tistory.com
+                  - img "블로그 이미지" [ref=e446]
+                  - generic [ref=e447]: 하루의시간
+                - link "아이들과 동해 묵호 가족여행 코스 _ 어달해변&어달삼거리, 묵호등대마을 논골담길 강원도 여행을 다녀왔다. 여행지는 동해와 삼척.이번 여행은 정말 천천히 쉬면서 바다 풍경을 즐기고자 떠났던 여행인데.. 어쩌다 보니 관광으로 알찬 여행이 되었다. 여행날 아침부터 비가 내렸다. 빗속을 달려 동해에 도착하니 딱 배고픈 점심시간이다. 매운 음식 못먹는 어린이들과 먹을만한 메뉴를 고민하다가 묵호항 근처에 생선구이집에 갔다. 생선구이집 근처 주차장에서 마주한 풍경. 오래된 복도식 아파트에 어망이 달려있다. 아파트에 어망이라니..! 서울에서는 볼 수 없는 생경함에 동해에 왔다는 것이 실감이 났다.첫끼는 아이들도 먹기 좋은 생선구이를 골랐다. 묵호항에 있는 '바다에'라는 생선구이집. 생선구이 정식 2인분에 참치초밥을 주문했다. 생선구이는 고등어, 조기, 열기가 나온다. 고등어구이가 제일 맛있었다. .. 좋아요 3 댓글 1 6일 전 게시글 이미지" [ref=e448] [cursor=pointer]:
+                  - /url: https://helloamy.tistory.com/entry/%EC%95%84%EC%9D%B4%EB%93%A4%EA%B3%BC-%EB%8F%99%ED%95%B4-%EB%AC%B5%ED%98%B8-%EA%B0%80%EC%A1%B1%EC%97%AC%ED%96%89-%EC%BD%94%EC%8A%A4-%EC%96%B4%EB%8B%AC%ED%95%B4%EB%B3%80%EC%96%B4%EB%8B%AC%EC%82%BC%EA%B1%B0%EB%A6%AC-%EB%AC%B5%ED%98%B8%EB%93%B1%EB%8C%80%EB%A7%88%EC%9D%84-%EB%85%BC%EA%B3%A8%EB%8B%B4%EA%B8%B8
+                  - generic [ref=e449]:
+                    - strong [ref=e450]: 아이들과 동해 묵호 가족여행 코스 _ 어달해변&어달삼거리, 묵호등대마을 논골담길
+                    - paragraph [ref=e452]: 강원도 여행을 다녀왔다. 여행지는 동해와 삼척.이번 여행은 정말 천천히 쉬면서 바다 풍경을 즐기고자 떠났던 여행인데.. 어쩌다 보니 관광으로 알찬 여행이 되었다. 여행날 아침부터 비가 내렸다. 빗속을 달려 동해에 도착하니 딱 배고픈 점심시간이다. 매운 음식 못먹는 어린이들과 먹을만한 메뉴를 고민하다가 묵호항 근처에 생선구이집에 갔다. 생선구이집 근처 주차장에서 마주한 풍경. 오래된 복도식 아파트에 어망이 달려있다. 아파트에 어망이라니..! 서울에서는 볼 수 없는 생경함에 동해에 왔다는 것이 실감이 났다.첫끼는 아이들도 먹기 좋은 생선구이를 골랐다. 묵호항에 있는 '바다에'라는 생선구이집. 생선구이 정식 2인분에 참치초밥을 주문했다. 생선구이는 고등어, 조기, 열기가 나온다. 고등어구이가 제일 맛있었다. ..
+                    - generic [ref=e453]:
+                      - generic [ref=e454]:
+                        - generic [ref=e455]: 좋아요
+                        - generic [ref=e456]: "3"
+                      - generic [ref=e457]:
+                        - generic [ref=e458]: 댓글
+                        - generic [ref=e459]: "1"
+                      - generic [ref=e460]: 6일 전
+                  - img "게시글 이미지" [ref=e463]
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - heading "FOCUS" [level=2] [ref=e466]
+              - strong [ref=e467]: 오후에는 커피 한 잔 ☕️
+              - paragraph [ref=e468]: 커피 한 잔의 여유를 아는 품격있는 당신.달달이와도 함께 할 수 있는 공간을 소개합니다.
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - link "블로그 이미지 짜장 먹고 싶다" [ref=e472] [cursor=pointer]:
+                  - /url: https://breezehu.tistory.com
+                  - img "블로그 이미지" [ref=e474]
+                  - generic [ref=e475]: 짜장 먹고 싶다
+                - 'link "발리 휴양지 감성의 이국적인 분위기 카페, 가평 프렌치 발리 가평 프렌치 발리는 탁 트인 북한강변의 정취와 이국적인 발리 휴양지 감성을 동시에 만끽할 수 있는 대형카페입니다. 오픈한 지 얼마 되지 않은 따끈따끈한 신상 카페인데요. 저희는 청하가든에 막국수를 먹으러 갔다가, 사장님께서 새롭게 문을 연 카페가 있다고 알려주셔서 이곳 카페 프렌치 발리에 가게 되었습니다. 카페 프렌치 발리주소: 경기 가평군 상면 청군로 328-24 1층영업시간: 10:00 ~ 20:00 / 8월 15-17일 09:00 ~ 20:00문의: 0507 1418 5335 경기도 가평군 상면 청군로에 위치한 프렌치 발리 카페는 고즈넉한 자연 풍경을 그대로 선물해 주는 카페였어요. 매장 입구부터 펼쳐지는 압도적인 수변 공간과 발리 특유의 감각적인 인테리어, 그리고 정성스럽게 연출된 휴양지 소품들이.. 좋아요 42 댓글 46 5일 전 게시글 이미지" [ref=e476] [cursor=pointer]':
+                  - /url: https://breezehu.tistory.com/1387
+                  - generic [ref=e477]:
+                    - strong [ref=e478]: 발리 휴양지 감성의 이국적인 분위기 카페, 가평 프렌치 발리
+                    - paragraph [ref=e480]: "가평 프렌치 발리는 탁 트인 북한강변의 정취와 이국적인 발리 휴양지 감성을 동시에 만끽할 수 있는 대형카페입니다. 오픈한 지 얼마 되지 않은 따끈따끈한 신상 카페인데요. 저희는 청하가든에 막국수를 먹으러 갔다가, 사장님께서 새롭게 문을 연 카페가 있다고 알려주셔서 이곳 카페 프렌치 발리에 가게 되었습니다. 카페 프렌치 발리주소: 경기 가평군 상면 청군로 328-24 1층영업시간: 10:00 ~ 20:00 / 8월 15-17일 09:00 ~ 20:00문의: 0507 1418 5335 경기도 가평군 상면 청군로에 위치한 프렌치 발리 카페는 고즈넉한 자연 풍경을 그대로 선물해 주는 카페였어요. 매장 입구부터 펼쳐지는 압도적인 수변 공간과 발리 특유의 감각적인 인테리어, 그리고 정성스럽게 연출된 휴양지 소품들이.."
+                    - generic [ref=e481]:
+                      - generic [ref=e482]:
+                        - generic [ref=e483]: 좋아요
+                        - generic [ref=e484]: "42"
+                      - generic [ref=e485]:
+                        - generic [ref=e486]: 댓글
+                        - generic [ref=e487]: "46"
+                      - generic [ref=e488]: 5일 전
+                  - img "게시글 이미지" [ref=e491]
+              - generic [ref=e492]:
+                - link "블로그 이미지 TOMMY'S DINER" [ref=e494] [cursor=pointer]:
+                  - /url: https://diner.tistory.com
+                  - img "블로그 이미지" [ref=e496]
+                  - generic [ref=e497]: TOMMY'S DINER
+                - link "스타벅스 리워드 서머쿠폰 | 복숭아 젤리 치즈케이크 스타벅스에서 지난 탱크데이 사태를 반성하고 사죄하는 마음을 담아, 스타벅스 전체 회원에게 뿌린 서머쿠폰 2종 소진을 위해서 지인분들과 함께 가까운 스타벅스 매장을 찾았답니다.. 시원한 여름을 위한 스타벅스 쿠폰 2종.. STARBUCKS 2026 SUMMER COUPON.. 쿠폰 1은 인기 아이스 음료 무료 쿠폰, 쿠폰 2는 푸드 30%할인 쿠폰.. 해당 음료는 카페아메리카노, 카페라떼, 바닐라라떼 톨 사이즈이고요.. 푸드는 샌드위치, 케이크/미니디저트, 브레드, 과일/요거트/아이스크림 모두 해당된다고 합니다.. 스타벅스 새절역점은 불광천 변 은평신협 빌딩 1층에 자리하고 있답니다.. 아무도 신경 쓰는 사람이 없지만, 불광천에도 왜가리랑 오리들 있습니다.. 청계천에만 있는 게 아닌데 왜들 난린지 모르겠음.. 좋아요 7 댓글 3 6일 전 게시글 이미지" [ref=e498] [cursor=pointer]:
+                  - /url: https://diner.tistory.com/559016
+                  - generic [ref=e499]:
+                    - strong [ref=e500]: 스타벅스 리워드 서머쿠폰 | 복숭아 젤리 치즈케이크
+                    - paragraph [ref=e502]: 스타벅스에서 지난 탱크데이 사태를 반성하고 사죄하는 마음을 담아, 스타벅스 전체 회원에게 뿌린 서머쿠폰 2종 소진을 위해서 지인분들과 함께 가까운 스타벅스 매장을 찾았답니다.. 시원한 여름을 위한 스타벅스 쿠폰 2종.. STARBUCKS 2026 SUMMER COUPON.. 쿠폰 1은 인기 아이스 음료 무료 쿠폰, 쿠폰 2는 푸드 30%할인 쿠폰.. 해당 음료는 카페아메리카노, 카페라떼, 바닐라라떼 톨 사이즈이고요.. 푸드는 샌드위치, 케이크/미니디저트, 브레드, 과일/요거트/아이스크림 모두 해당된다고 합니다.. 스타벅스 새절역점은 불광천 변 은평신협 빌딩 1층에 자리하고 있답니다.. 아무도 신경 쓰는 사람이 없지만, 불광천에도 왜가리랑 오리들 있습니다.. 청계천에만 있는 게 아닌데 왜들 난린지 모르겠음..
+                    - generic [ref=e503]:
+                      - generic [ref=e504]:
+                        - generic [ref=e505]: 좋아요
+                        - generic [ref=e506]: "7"
+                      - generic [ref=e507]:
+                        - generic [ref=e508]: 댓글
+                        - generic [ref=e509]: "3"
+                      - generic [ref=e510]: 6일 전
+                  - img "게시글 이미지" [ref=e513]
+              - generic [ref=e514]:
+                - link "블로그 이미지 눈,코,입으로 감각하는 모든 취향의 기록" [ref=e516] [cursor=pointer]:
+                  - /url: https://namcandler.tistory.com
+                  - img "블로그 이미지" [ref=e518]
+                  - generic [ref=e519]: 눈,코,입으로 감각하는 모든 취향의 기록
+                - link "대흥역 카페 캐피 | 경의선숲길 뷰와 스페셜티 커피, 강아지 산책 필수 코스 안녕하세요, 캔들러입니다.대흥역 경의선숲길 쪽에 스페셜티 커피 전문점 **캐피(CAPPY)**를 다녀왔어요.이대 인근에서 먼저 자리잡은 곳이 경의선숲길 산책로 옆 골목에 2호점을 낸 건데요.숲길 걷다가 우연히 발견하기 딱 좋은 위치였어요. 기본 정보항목내용상호명캐피 CAPPY (경의선숲길점)주소서울 마포구 백범로16안길 15-1 1층영업시간목~수 09:00~18:00 (매달 첫째 주 월요일 정기휴무)전화번호0507-1381-9332홈페이지cappyseoul.com위치대흥역 3번 출구에서 도보 약 3분, 경의선숲길 산책로 인근반려동물 동반가능한 것으로 확인되나, 매장 협소하니 방문 전 확인 권장주차별도 주차공간 없음, 인근 공영/민영 주차장 이용 필요캐피 위치 & 외관대흥역 3번 출구에서 경의선숲길을 따라.. 좋아요 9 댓글 7 6일 전 게시글 이미지" [ref=e520] [cursor=pointer]:
+                  - /url: https://namcandler.tistory.com/entry/daeheung-cafe-cappy-review
+                  - generic [ref=e521]:
+                    - strong [ref=e522]: 대흥역 카페 캐피 | 경의선숲길 뷰와 스페셜티 커피, 강아지 산책 필수 코스
+                    - paragraph [ref=e524]: 안녕하세요, 캔들러입니다.대흥역 경의선숲길 쪽에 스페셜티 커피 전문점 **캐피(CAPPY)**를 다녀왔어요.이대 인근에서 먼저 자리잡은 곳이 경의선숲길 산책로 옆 골목에 2호점을 낸 건데요.숲길 걷다가 우연히 발견하기 딱 좋은 위치였어요. 기본 정보항목내용상호명캐피 CAPPY (경의선숲길점)주소서울 마포구 백범로16안길 15-1 1층영업시간목~수 09:00~18:00 (매달 첫째 주 월요일 정기휴무)전화번호0507-1381-9332홈페이지cappyseoul.com위치대흥역 3번 출구에서 도보 약 3분, 경의선숲길 산책로 인근반려동물 동반가능한 것으로 확인되나, 매장 협소하니 방문 전 확인 권장주차별도 주차공간 없음, 인근 공영/민영 주차장 이용 필요캐피 위치 & 외관대흥역 3번 출구에서 경의선숲길을 따라..
+                    - generic [ref=e525]:
+                      - generic [ref=e526]:
+                        - generic [ref=e527]: 좋아요
+                        - generic [ref=e528]: "9"
+                      - generic [ref=e529]:
+                        - generic [ref=e530]: 댓글
+                        - generic [ref=e531]: "7"
+                      - generic [ref=e532]: 6일 전
+                  - img "게시글 이미지" [ref=e535]
+              - generic [ref=e536]:
+                - link "블로그 이미지 go2hr" [ref=e538] [cursor=pointer]:
+                  - /url: https://go2hr.tistory.com
+                  - img "블로그 이미지" [ref=e540]
+                  - generic [ref=e541]: go2hr
+                - link "대만식 도넛 전문점 디저트 맛집 O;DONUT 오도넛 한남점 안녕하세요 저녁을 먹고난 후 달달한 디저트가 먹고싶어배가 부르지만 디저트 배는 따로 있다는 논리는세상 사람들이 다 아는 진실! ㅋㅋㅋ 그리 핫하다는 댓글 평을 보니 갓 나온 도넛을 입에 넣는 기분이다입안에서 살살 녹는다 등 다양한 극찬의 평들이 있어 주문한디저트 맛집 O;DONUT 오도넛 한남점 소개해 볼게요 주문을 하고 얼마 되지 않아서 도착!오~ 이렇게 빠르다고? 포장지를 들어보니 따뜻함이 마치 매장에서 주문해서 받아든 그런 느낌! 후덕지게 시켰죠?ㅋㅋㅋ재빠르게 아이스 아메리카노 한잔 내려 줍니다 센스 쩔죠? 그리도 날씨가 더웠다가 이제는 슬슬 풀리는 것 같으면서 더위를 못참는 저에게는 아직까지 에어컨이 필요한 상태라 대만식 도넛으로 유명한 오도넛주문하자마자 이렇게 빠르게 오고마.. 좋아요 18 댓글 11 22시간 전 게시글 이미지" [ref=e542] [cursor=pointer]:
+                  - /url: https://go2hr.tistory.com/190
+                  - generic [ref=e543]:
+                    - strong [ref=e544]: 대만식 도넛 전문점 디저트 맛집 O;DONUT 오도넛 한남점
+                    - paragraph [ref=e546]: 안녕하세요 저녁을 먹고난 후 달달한 디저트가 먹고싶어배가 부르지만 디저트 배는 따로 있다는 논리는세상 사람들이 다 아는 진실! ㅋㅋㅋ 그리 핫하다는 댓글 평을 보니 갓 나온 도넛을 입에 넣는 기분이다입안에서 살살 녹는다 등 다양한 극찬의 평들이 있어 주문한디저트 맛집 O;DONUT 오도넛 한남점 소개해 볼게요 주문을 하고 얼마 되지 않아서 도착!오~ 이렇게 빠르다고? 포장지를 들어보니 따뜻함이 마치 매장에서 주문해서 받아든 그런 느낌! 후덕지게 시켰죠?ㅋㅋㅋ재빠르게 아이스 아메리카노 한잔 내려 줍니다 센스 쩔죠? 그리도 날씨가 더웠다가 이제는 슬슬 풀리는 것 같으면서 더위를 못참는 저에게는 아직까지 에어컨이 필요한 상태라 대만식 도넛으로 유명한 오도넛주문하자마자 이렇게 빠르게 오고마..
+                    - generic [ref=e547]:
+                      - generic [ref=e548]:
+                        - generic [ref=e549]: 좋아요
+                        - generic [ref=e550]: "18"
+                      - generic [ref=e551]:
+                        - generic [ref=e552]: 댓글
+                        - generic [ref=e553]: "11"
+                      - generic [ref=e554]: 22시간 전
+                  - img "게시글 이미지" [ref=e557]
+              - generic [ref=e558]:
+                - link "블로그 이미지 류토피아 인 티스토리 (RYUTOPIA in Tistory)" [ref=e560] [cursor=pointer]:
+                  - /url: https://ryunan9903.tistory.com
+                  - img "블로그 이미지" [ref=e562]
+                  - generic [ref=e563]: 류토피아 인 티스토리 (RYUTOPIA in Tistory)
+                - link "2026.8.13. 얼터너티브(서울 강동구 길동) / 맛있는 플랫화이트가 있는 동네 로스터리 & 베이커리 카페 바로 직전 포스팅인 숙이네에서 왕돈까스 먹고 친구들이랑 근처에 이야기나눌 카페 찾다 발견한 작은 동네 카페입니다.숙이네 돈까스집에서 거의 도보 1분 수준으로 아주 가까운 길 건너에 위치해 있어 뭐 굳이 멀리 갈 필요 있나 해서 들어갔던 곳. 가게 이름은 '얼터너티브'주택가 동네 한가운데 위치한 작은 로스터리 & 베이커리 카페로 사전 정보 없이 그냥 눈앞에 보이길래 바로 들어간 카페입니다. 핸드드립을 전문으로 하는 가게라 가게 앞엔 매장의 시그니처 원두에 대한 시향 코너가 따로 있었고요. 빵과 케이크 등을 판매하는 베이커리 매대도 작게 존재하는데, 커피 주문할 때 직원분이 굉장히 친절하게'커피랑 같이 곁들일 수 있는 빵 어떠시냐' 고 너무 적극적으로 권하시길래 거절하는 게 좀 많이 미안했습니다... 좋아요 8 댓글 3 5일 전 게시글 이미지" [ref=e564] [cursor=pointer]:
+                  - /url: https://ryunan9903.tistory.com/572693
+                  - generic [ref=e565]:
+                    - strong [ref=e566]: 2026.8.13. 얼터너티브(서울 강동구 길동) / 맛있는 플랫화이트가 있는 동네 로스터리 & 베이커리 카페
+                    - paragraph [ref=e568]: 바로 직전 포스팅인 숙이네에서 왕돈까스 먹고 친구들이랑 근처에 이야기나눌 카페 찾다 발견한 작은 동네 카페입니다.숙이네 돈까스집에서 거의 도보 1분 수준으로 아주 가까운 길 건너에 위치해 있어 뭐 굳이 멀리 갈 필요 있나 해서 들어갔던 곳. 가게 이름은 '얼터너티브'주택가 동네 한가운데 위치한 작은 로스터리 & 베이커리 카페로 사전 정보 없이 그냥 눈앞에 보이길래 바로 들어간 카페입니다. 핸드드립을 전문으로 하는 가게라 가게 앞엔 매장의 시그니처 원두에 대한 시향 코너가 따로 있었고요. 빵과 케이크 등을 판매하는 베이커리 매대도 작게 존재하는데, 커피 주문할 때 직원분이 굉장히 친절하게'커피랑 같이 곁들일 수 있는 빵 어떠시냐' 고 너무 적극적으로 권하시길래 거절하는 게 좀 많이 미안했습니다...
+                    - generic [ref=e569]:
+                      - generic [ref=e570]:
+                        - generic [ref=e571]: 좋아요
+                        - generic [ref=e572]: "8"
+                      - generic [ref=e573]:
+                        - generic [ref=e574]: 댓글
+                        - generic [ref=e575]: "3"
+                      - generic [ref=e576]: 5일 전
+                  - img "게시글 이미지" [ref=e579]
+        - generic [ref=e581]:
+          - generic [ref=e582]:
+            - heading "나의 티스토리" [level=2]
+            - paragraph [ref=e583]: 티스토리에 로그인하시고 더 많은 기능을 이용해보세요!
+            - link "카카오계정으로 시작하기" [ref=e584] [cursor=pointer]:
+              - /url: "#"
+          - separator [ref=e587]
+          - generic [ref=e588]:
+            - generic [ref=e589]:
+              - heading "스토리 크리에이터 스토리 크리에이터" [level=2] [ref=e590]:
+                - generic [ref=e591]: 스토리 크리에이터
+                - img "스토리 크리에이터" [ref=e592]
+              - button "도움말보기" [expanded] [ref=e594] [cursor=pointer]
+            - generic [ref=e596]:
+              - generic [ref=e597]:
+                - link "담덕이의 탐방일지 맛집 분야 크리에이터 2,528명 구독" [ref=e599] [cursor=pointer]:
+                  - /url: https://damduck01.com
+                  - strong [ref=e600]: 담덕이의 탐방일지
+                  - generic [ref=e601]:
+                    - generic [ref=e603]: 맛집 분야 크리에이터
+                    - generic [ref=e604]: 2,528명 구독
+                - button "구독" [ref=e606] [cursor=pointer]
+              - generic [ref=e609]:
+                - link "[판교 점심] 무더위 날리는 시원한 콩물과 쫄깃한 면발! 운중동 봉황칼국수 설탕파 콩국수 솔직 후기 by 직장인 점심 메뉴 탐방 좋아요 12 댓글 1 4시간 전 게시글 이미지" [ref=e610] [cursor=pointer]:
+                  - /url: https://damduck01.com/4002
+                  - generic [ref=e611]:
+                    - strong [ref=e612]: "[판교 점심] 무더위 날리는 시원한 콩물과 쫄깃한 면발! 운중동 봉황칼국수 설탕파 콩국수 솔직 후기 by 직장인 점심 메뉴 탐방"
+                    - generic [ref=e613]:
+                      - generic [ref=e614]:
+                        - generic [ref=e615]: 좋아요
+                        - generic [ref=e616]: "12"
+                      - generic [ref=e617]:
+                        - generic [ref=e618]: 댓글
+                        - generic [ref=e619]: "1"
+                      - generic [ref=e620]: 4시간 전
+                  - img "게시글 이미지" [ref=e623]
+                - link "[판교 점심] 불쇼로 기대감 UP! 운중동 신상 고깃집 육향도 서판교직영점 제육볶음 솔직 후기 by 직장인 점심 메뉴 탐방 좋아요 16 댓글 7 1일 전 게시글 이미지" [ref=e625] [cursor=pointer]:
+                  - /url: https://damduck01.com/4001
+                  - generic [ref=e626]:
+                    - strong [ref=e627]: "[판교 점심] 불쇼로 기대감 UP! 운중동 신상 고깃집 육향도 서판교직영점 제육볶음 솔직 후기 by 직장인 점심 메뉴 탐방"
+                    - generic [ref=e628]:
+                      - generic [ref=e629]:
+                        - generic [ref=e630]: 좋아요
+                        - generic [ref=e631]: "16"
+                      - generic [ref=e632]:
+                        - generic [ref=e633]: 댓글
+                        - generic [ref=e634]: "7"
+                      - generic [ref=e635]: 1일 전
+                  - img "게시글 이미지" [ref=e638]
+            - generic [ref=e639]:
+              - generic [ref=e640]:
+                - link "펜펜의 나홀로 여정 여행 분야 크리에이터 1,450명 구독" [ref=e642] [cursor=pointer]:
+                  - /url: https://leeesann.tistory.com
+                  - strong [ref=e643]: 펜펜의 나홀로 여정
+                  - generic [ref=e644]:
+                    - generic [ref=e646]: 여행 분야 크리에이터
+                    - generic [ref=e647]: 1,450명 구독
+                - button "구독" [ref=e649] [cursor=pointer]
+              - generic [ref=e652]:
+                - link "서울 덕수궁 돈덕전-반화 상서로운 마음 전시회 좋아요 15 댓글 9 6시간 전 게시글 이미지" [ref=e653] [cursor=pointer]:
+                  - /url: https://leeesann.tistory.com/299291
+                  - generic [ref=e654]:
+                    - strong [ref=e655]: 서울 덕수궁 돈덕전-반화 상서로운 마음 전시회
+                    - generic [ref=e656]:
+                      - generic [ref=e657]:
+                        - generic [ref=e658]: 좋아요
+                        - generic [ref=e659]: "15"
+                      - generic [ref=e660]:
+                        - generic [ref=e661]: 댓글
+                        - generic [ref=e662]: "9"
+                      - generic [ref=e663]: 6시간 전
+                  - img "게시글 이미지" [ref=e666]
+                - link "내 친구 서울 서울갤러리-서울시청 지하1층에 펼쳐진 환상의 공간 좋아요 19 댓글 13 2일 전 게시글 이미지" [ref=e668] [cursor=pointer]:
+                  - /url: https://leeesann.tistory.com/299293
+                  - generic [ref=e669]:
+                    - strong [ref=e670]: 내 친구 서울 서울갤러리-서울시청 지하1층에 펼쳐진 환상의 공간
+                    - generic [ref=e671]:
+                      - generic [ref=e672]:
+                        - generic [ref=e673]: 좋아요
+                        - generic [ref=e674]: "19"
+                      - generic [ref=e675]:
+                        - generic [ref=e676]: 댓글
+                        - generic [ref=e677]: "13"
+                      - generic [ref=e678]: 2일 전
+                  - img "게시글 이미지" [ref=e681]
+            - generic [ref=e683]:
+              - generic [ref=e684]:
+                - generic: "현재 페이지 :"
+                - emphasis [ref=e685]: "1"
+                - generic [ref=e686]: / 16
+              - button "이전" [ref=e687] [cursor=pointer]
+              - button "다음" [ref=e689] [cursor=pointer]
+          - generic [ref=e691]:
+            - heading "구독 급상승 구독 급상승" [level=2] [ref=e692]:
+              - generic [ref=e693]: 구독 급상승
+              - img "구독 급상승" [ref=e694]
+            - generic [ref=e695]:
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - generic [ref=e699]: 812명 구독
+                  - generic [ref=e701]: 14명
+                - strong [ref=e702]:
+                  - link "R-Story" [ref=e703] [cursor=pointer]:
+                    - /url: https://realestate-k.tistory.com
+                  - button "구독" [ref=e706] [cursor=pointer]
+                - link [ref=e709] [cursor=pointer]:
+                  - /url: https://realestate-k.tistory.com
+                  - generic [ref=e710]: 여행·맛집
+                  - text: 미쁘다.
+              - generic [ref=e712]:
+                - generic [ref=e713]:
+                  - link [ref=e715] [cursor=pointer]:
+                    - /url: https://realestate-k.tistory.com/1072
+                    - strong [ref=e716]: "[전주 맛집] 50분 웨이팅도 아깝지 않은 메르밀진미집 본점 혼밥 솔직 후기"
+                  - link [ref=e720] [cursor=pointer]:
+                    - /url: https://realestate-k.tistory.com/1069
+                    - strong [ref=e721]: 대구 성서 4만원대 가성비 숙소 솔직후기! 넘버25 성서점 1박 머물러보니
+                - generic [ref=e724]:
+                  - generic [ref=e725]:
+                    - generic: "현재 페이지 :"
+                    - emphasis [ref=e726]: "1"
+                    - generic [ref=e727]: / 20
+                  - button "이전" [ref=e728] [cursor=pointer]
+                  - button "다음" [ref=e730] [cursor=pointer]
+          - generic [ref=e732]:
+            - heading "티스토리 운영 Tip 티스토리 운영 Tip" [level=2] [ref=e733]:
+              - generic [ref=e734]: 티스토리 운영 Tip
+              - img "티스토리 운영 Tip" [ref=e735]
+            - generic [ref=e736]:
+              - link [ref=e738] [cursor=pointer]:
+                - /url: https://1sangsosick.tistory.com/305
+                - generic [ref=e739]:
+                  - strong [ref=e740]: 행복을 안겨주는 공간
+                  - strong [ref=e741]: 티스토리 로그인 및 가입하기
+                  - img "운영팁 이미지" [ref=e743]
+              - link [ref=e745] [cursor=pointer]:
+                - /url: https://blog.baobtree.com/entry/%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC-%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95
+                - generic [ref=e746]:
+                  - strong [ref=e747]: 세상의 이모저모
+                  - strong [ref=e748]: 카테고리 설정하기
+                  - img "운영팁 이미지" [ref=e750]
+              - link [ref=e752] [cursor=pointer]:
+                - /url: https://magn0lia.tistory.com/62
+                - generic [ref=e753]:
+                  - strong [ref=e754]: 보안공부방
+                  - strong [ref=e755]: 마크다운, HTML 모드로 작성하기
+                  - img "운영팁 이미지" [ref=e757]
+              - link [ref=e759] [cursor=pointer]:
+                - /url: https://lastingstudy.tistory.com/82
+                - generic [ref=e760]:
+                  - strong [ref=e761]: 지속 가능한 배움
+                  - strong [ref=e762]: 제작한 스킨 적용하기
+                  - img "운영팁 이미지" [ref=e764]
+            - generic [ref=e766]:
+              - generic [ref=e767]:
+                - generic: "현재 페이지 :"
+                - emphasis [ref=e768]: "1"
+                - generic [ref=e769]: / 2
+              - button "이전" [ref=e770] [cursor=pointer]
+              - button "다음" [ref=e772] [cursor=pointer]
+          - generic [ref=e774]:
+            - heading [level=2] [ref=e775]:
+              - link "스킨 스토어" [ref=e776] [cursor=pointer]:
+                - /url: /skin
+            - generic [ref=e779]:
+              - img "Poster 스킨 보러가기" [ref=e780]
+              - link "보러가기" [ref=e781] [cursor=pointer]:
+                - /url: /skin/pg_Poster
+    - generic [ref=e784]:
+      - generic [ref=e785]:
+        - heading "서비스정보" [level=2]
+        - generic [ref=e786]:
+          - strong [ref=e787]: TISTORY
+          - paragraph [ref=e788]:
+            - generic [ref=e789]:
+              - text: 티스토리는 Daum에서
+              - img "사랑" [ref=e790]
+              - text: 을 담아 만듭니다.
+            - link "© Daum Corp." [ref=e792] [cursor=pointer]:
+              - /url: https://www.daumcorp.com/
+      - generic [ref=e793]:
+        - heading "문의목록" [level=2]
+        - generic [ref=e794]:
+          - generic [ref=e795]: 메뉴가 궁금할 땐
+          - list [ref=e796]:
+            - listitem [ref=e797]:
+              - link "홈" [ref=e798] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e799]:
+              - link "피드" [ref=e800] [cursor=pointer]:
+                - /url: /feed
+            - listitem [ref=e801]:
+              - link "스킨" [ref=e802] [cursor=pointer]:
+                - /url: /skin
+            - listitem [ref=e803]:
+              - link "포럼" [ref=e804] [cursor=pointer]:
+                - /url: /community/forum
+        - generic [ref=e805]:
+          - generic [ref=e806]: 사용하다 궁금할 땐
+          - list [ref=e807]:
+            - listitem [ref=e808]:
+              - link "스킨가이드" [ref=e809] [cursor=pointer]:
+                - /url: https://tistory.github.io/document-tistory-skin/
+            - listitem [ref=e810]:
+              - link "고객센터" [ref=e811] [cursor=pointer]:
+                - /url: https://cs.daum.net
+            - listitem [ref=e812]:
+              - link "공지사항" [ref=e813] [cursor=pointer]:
+                - /url: https://notice.tistory.com/
+        - generic [ref=e814]:
+          - generic [ref=e815]: 정책이 궁금할 땐
+          - list [ref=e816]:
+            - listitem [ref=e817]:
+              - link "이용약관" [ref=e818] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/info
+            - listitem [ref=e819]:
+              - link "이전 이용약관" [ref=e820] [cursor=pointer]:
+                - /url: /info/contract
+            - listitem [ref=e821]:
+              - link "운영정책" [ref=e822] [cursor=pointer]:
+                - /url: /info/policy
+            - listitem [ref=e823]:
+              - link [ref=e824] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/privacy
+                - emphasis [ref=e825]: 개인정보처리방침
+            - listitem [ref=e826]:
+              - link "청소년보호정책" [ref=e827] [cursor=pointer]:
+                - /url: https://policy.daum.net/policy/youthpolicy
+            - listitem [ref=e828]:
+              - link "Email 수집거부정책" [ref=e829] [cursor=pointer]:
+                - /url: /info/emailPolicy
+        - generic [ref=e830]:
+          - generic [ref=e831]: 도움이 필요할 땐
+          - list [ref=e832]:
+            - listitem [ref=e833]:
+              - link "권리침해신고" [ref=e834] [cursor=pointer]:
+                - /url: https://cs.daum.net/redbell/right/libelProcess.html
+            - listitem [ref=e835]:
+              - link "상거래 피해 구제신청" [ref=e836] [cursor=pointer]:
+                - /url: https://top.cafe.daum.net/_c21_/conflict
+  - alert [ref=e837]
